@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# TensorFlow / Keras
+*.h5
+*.pb
+*.tflite
+saved_model/
+logs/tb_*/
+
+# Dataset (too large for git)
+dataset/
+
+# Face detector model (auto-downloaded)
+face_detector/*.caffemodel
+
+# Outputs
+images/screenshot_*.jpg
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
